@@ -58,10 +58,11 @@ def update_tutorial(tutorial_id):
 @app.route('/tutorials/<int:tutorial_id>', methods=['DELETE'])
 def delete_tutorial(tutorial_id):
     idx, _ = next((x for x in enumerate(tutorials)
-                if x[1]['id'] == tutorial_id), (None, None))
+                   if x[1]['id'] == tutorial_id), (None, None))
     tutorials.pop(idx)
     return "", 204
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
+
