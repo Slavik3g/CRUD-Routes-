@@ -20,11 +20,11 @@ tutorials = [
         "title": "Third",
         "description": "GET, POST routes",
     },
-    {
-        'id': 4,
-        "title": "Fourth",
-        "description": "PUT, DELETE routes",
-    },
+    # {
+    #     'id': 4,
+    #     "title": "Fourth",
+    #     "description": "PUT, DELETE routes",
+    # },
 ]
 
 

@@ -1,4 +1,4 @@
-FROM python
+FROM python:3.10
 
 MAINTAINER Slava Chebotarev "slavik3g@gmail.com"
 
